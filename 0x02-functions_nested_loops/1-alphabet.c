@@ -1,0 +1,11 @@
+#include "main.h"
+
+/**
+ * main - Entry point
+ * Return: Void
+ */
+
+void print_alphabet(void)
+{
+	char c;
+	for (c =
