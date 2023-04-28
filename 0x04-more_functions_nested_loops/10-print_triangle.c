@@ -5,7 +5,6 @@
  * @size: Triangle size
  * Return: Nothing on success
  */
-
 void print_triangle(int size)
 {
 	int start = 0, end = size, count;
@@ -17,7 +16,7 @@ void print_triangle(int size)
 				{
 					while (start < end)
 					{
-					if ((start + count + 1 >= end)
+					if (start + count + 1 >= end)
 							_putchar('#');
 					else
 							_putchar(' ');
